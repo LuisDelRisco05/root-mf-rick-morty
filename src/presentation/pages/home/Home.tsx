@@ -12,7 +12,15 @@ export const Home = () => {
 
   return (
     <Layout>
-      <Box sx={{ width: '100%', height: '100%', paddingBottom: '64px', paddingTop: '24px', display: 'flex', alignItems: 'center', flexDirection: 'column' }}>
+      <Box sx={{ 
+        width: "100%",
+        flexGrow: 1,
+        paddingBottom: "64px",
+        paddingTop: "24px",
+        display: "flex",
+        alignItems: "center",
+        flexDirection: "column",
+      }}>
         <Suspense fallback={<div>Loading...</div>}>
           <CharacterList characters={characters} favorites={favorites} setFavorites={setFavorites} />
         </Suspense>

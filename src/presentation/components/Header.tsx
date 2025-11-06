@@ -57,7 +57,7 @@ export const Header = () => {
             justifyContent: 'center',
             zIndex: 1
         }}>
-            <SearchInput onChange={setQuery} />
+            <SearchInput onChange={setQuery} placeholder="Search for a character" />
         </Box>
     </Box>
   )
