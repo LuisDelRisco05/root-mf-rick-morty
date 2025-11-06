@@ -3,7 +3,7 @@ declare module 'remoteCharacters/mf-characters' {
 }
 
 declare module 'rick-morty-card' {
-  export const SearchInputProps;
+  export const SearchInput;
   export const ButtonComponent;
   export const theme;
 }

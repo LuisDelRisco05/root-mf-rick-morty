@@ -2,7 +2,6 @@ import { Box, Typography } from "@mui/material";
 import { ButtonComponent, theme } from 'rick-morty-card'
 import backgroundComplete from '@/assets/img/background-complete.png'
 import titleSeries from '@/assets/title-series.svg';
-import './welcomeStyles.css';
 import { useNavigate } from "react-router-dom";
 
 export const Welcome = () => {
@@ -17,7 +16,9 @@ export const Welcome = () => {
         height: '100%', 
         display: 'flex', 
         alignItems: 'center', 
-        justifyContent: 'center'
+        justifyContent: 'center',
+        backgroundColor: 'indigo',
+        zIndex: 1,
       }}
     >
       <Box

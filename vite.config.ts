@@ -14,7 +14,7 @@ export default defineConfig(({ mode }) => {
         name: 'root',
         filename: 'remoteEntry.js',
         remotes: {
-          remoteCharacters: env.VITE_REMOTE_CHARACTERS,
+          remoteCharacters: env.VITE_REMOTE_CHARACTERS ?? '',
           remoteDetails: env.VITE_REMOTE_DETAILS ?? ''
         },
         shared: packageJson.dependencies

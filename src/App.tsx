@@ -1,8 +1,8 @@
 // import { lazy, Suspense } from "react";
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom'
 import './App.css'
-import { Welcome } from './ui/pages/welcome/Welcome'
-import { Home } from './ui/pages/home/Home'
+import { Welcome } from './presentation/pages/welcome/Welcome'
+import { Home } from './presentation/pages/home/Home'
 
 // const Characters = lazy(() => import("remoteCharacters/mf-characters"));
 
